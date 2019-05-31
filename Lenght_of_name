@@ -1,0 +1,10 @@
+name = input("введите ваше имя: ")
+
+len_name = len(name)
+
+if len_name < 3:
+	print("Name must be at least 3 characters")
+elif len_name > 50:
+	print("Name must be maximum of 50 characters")
+else:
+	print("This name is OK")
